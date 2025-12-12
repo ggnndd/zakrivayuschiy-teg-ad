@@ -43,7 +43,7 @@
   transition: fill 0.1s linear;
 }
 
-.content-body {
+.main-body {
   fill: transparent;
   transition: fill 0.3s linear;
 }
@@ -53,33 +53,33 @@
   transition: fill 0.3s linear;
 }
 
-.card__icon-button:hover .content-body {
+.card__icon-button:hover .main-body {
   fill: var(--heart-contour);
   transition: fill 0.3s linear 0.05s ;
 }
 
 .card__icon-button:active .core {
-  fill: var(--heart-content-body);
+  fill: var(--heart-main-body);
   transition: fill 0.3s linear;
 }
 
-.card__icon-button:active .content-body {
-  fill: var(--heart-content-body);
+.card__icon-button:active .main-body {
+  fill: var(--heart-main-body);
   transition: fill 0.3s linear 0.05s;
 }
 
 .like-icon.is-liked .core {
-  fill: var(--heart-content-body);
+  fill: var(--heart-main-body);
   transition: fill 0.3s linear;
 }
 
-.like-icon.is-liked .content-body {
-  fill: var(--heart-content-body);
+.like-icon.is-liked .main-body {
+  fill: var(--heart-main-body);
   transition: fill 0.3s linear 0.05s;
 }
 
 .like-icon.is-liked .contour {
-  fill: var(--heart-content-body);
+  fill: var(--heart-main-body);
   transition: fill 0.3s linear 0.06s;
 }
 
